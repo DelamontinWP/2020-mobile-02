@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/google_logo"
             tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="184dp" />
+            tools:layout_editor_absoluteY="187dp" />
 
         <Button
             android:id="@+id/button6"
@@ -109,6 +109,22 @@
             android:textSize="17dp"
             tools:layout_editor_absoluteX="29dp"
             tools:layout_editor_absoluteY="238dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fb_logo"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="248dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/futura_pt_demibold"
+            android:text="Enter as a guest"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="314dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
