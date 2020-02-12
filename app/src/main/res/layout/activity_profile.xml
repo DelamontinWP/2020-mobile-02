@@ -7,6 +7,7 @@
     tools:context=".profile">
 
     <ImageView
+        android:id="@+id/arrow_black1"
         android:layout_width="28dp"
         android:layout_height="20dp"
         android:background="@drawable/arrow_left_black"
@@ -14,6 +15,7 @@
         tools:layout_editor_absoluteY="17dp"/>
 
     <TextView
+        android:id="@+id/edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -24,6 +26,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
+        android:id="@+id/personal_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -34,6 +37,7 @@
         tools:layout_editor_absoluteY="74dp" />
 
     <ImageView
+        android:id="@+id/profile_picture"
         android:layout_width="98dp"
         android:layout_height="99dp"
         android:background="@drawable/profile_picture"
@@ -41,6 +45,7 @@
         tools:layout_editor_absoluteY="141dp" />
 
     <ImageView
+        android:id="@+id/edit_icon"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:background="@drawable/edit_icon"
@@ -48,6 +53,7 @@
         tools:layout_editor_absoluteY="203dp" />
 
     <TextView
+        android:id="@+id/about_it"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -57,6 +63,7 @@
         tools:layout_editor_absoluteY="265dp" />
 
     <TextView
+        android:id="@+id/fill_about"
         android:layout_width="371dp"
         android:layout_height="77dp"
         android:fontFamily="@font/futura_pt_demibold"
@@ -67,6 +74,7 @@
         tools:layout_editor_absoluteY="304dp" />
 
     <ImageView
+        android:id="@+id/arrow_black2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"
@@ -74,6 +82,7 @@
         tools:layout_editor_absoluteY="381dp" />
 
     <TextView
+        android:id="@+id/fullname_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Full Name"
@@ -82,6 +91,7 @@
         android:fontFamily="@font/futura_pt_demibold"/>
 
     <TextView
+        android:id="@+id/jonathan_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -91,6 +101,7 @@
         tools:layout_editor_absoluteY="399dp" />
 
     <ImageView
+        android:id="@+id/arrow_black3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"
@@ -98,6 +109,7 @@
         tools:layout_editor_absoluteY="433dp" />
 
     <TextView
+        android:id="@+id/email_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -106,6 +118,7 @@
         tools:layout_editor_absoluteY="452dp" />
 
     <TextView
+        android:id="@+id/email_jonathan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -115,6 +128,7 @@
         tools:layout_editor_absoluteY="452dp" />
 
     <ImageView
+        android:id="@+id/arrow_black4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"
@@ -122,6 +136,7 @@
         tools:layout_editor_absoluteY="490dp" />
 
     <TextView
+        android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -130,6 +145,7 @@
         tools:layout_editor_absoluteY="507dp" />
 
     <TextView
+        android:id="@+id/male"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -139,6 +155,7 @@
         tools:layout_editor_absoluteY="507dp" />
 
     <ImageView
+        android:id="@+id/arrow_black5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"
@@ -146,6 +163,7 @@
         tools:layout_editor_absoluteY="541dp" />
 
     <TextView
+        android:id="@+id/phone_number_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -154,6 +172,7 @@
         tools:layout_editor_absoluteY="558dp" />
 
     <TextView
+        android:id="@+id/phone_numb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -163,6 +182,7 @@
         tools:layout_editor_absoluteY="558dp" />
 
     <ImageView
+        android:id="@+id/arrow_black6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"
@@ -170,6 +190,7 @@
         tools:layout_editor_absoluteY="597dp" />
 
     <TextView
+        android:id="@+id/city_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -178,6 +199,7 @@
         tools:layout_editor_absoluteY="611dp" />
 
     <TextView
+        android:id="@+id/ottawa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -187,6 +209,7 @@
         tools:layout_editor_absoluteY="611dp" />
 
     <ImageView
+        android:id="@+id/arrow_black7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"
@@ -194,6 +217,7 @@
         tools:layout_editor_absoluteY="644dp" />
 
     <TextView
+        android:id="@+id/address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -202,6 +226,7 @@
         tools:layout_editor_absoluteY="665dp" />
 
     <TextView
+        android:id="@+id/address1"
         android:layout_width="206dp"
         android:layout_height="32dp"
         android:fontFamily="@font/futura_pt_demibold"
@@ -213,6 +238,7 @@
         tools:layout_editor_absoluteY="665dp" />
 
     <ImageView
+        android:id="@+id/arrow_black8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/grey_line_full"

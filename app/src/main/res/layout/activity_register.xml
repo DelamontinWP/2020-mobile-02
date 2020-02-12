@@ -7,6 +7,7 @@
     tools:context=".register">
 
     <ImageView
+        android:id="@+id/arrow_black"
         android:layout_width="28dp"
         android:layout_height="20dp"
         android:background="@drawable/arrow_left_black"
@@ -14,6 +15,7 @@
         tools:layout_editor_absoluteY="17dp" />
 
     <EditText
+        android:id="@+id/general_info"
         android:layout_width="344dp"
         android:layout_height="76dp"
         android:fontFamily="@font/futura_pt_demibold"
@@ -23,6 +25,7 @@
         tools:layout_editor_absoluteY="33dp" />
 
     <TextView
+        android:id="@+id/right_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -33,6 +36,7 @@
         tools:layout_editor_absoluteY="58dp" />
 
     <TextView
+        android:id="@+id/right_of_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -43,6 +47,7 @@
         tools:layout_editor_absoluteY="58dp" />
 
     <TextView
+        android:id="@+id/full_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -51,6 +56,7 @@
         tools:layout_editor_absoluteY="127dp" />
 
     <TextView
+        android:id="@+id/jonathan_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -61,6 +67,7 @@
         tools:layout_editor_absoluteY="154dp" />
 
     <ImageView
+        android:id="@+id/line_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/red_line_padded"
@@ -68,6 +75,7 @@
         tools:layout_editor_absoluteY="190dp" />
 
     <TextView
+        android:id="@+id/email_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -76,12 +84,14 @@
         tools:layout_editor_absoluteY="225dp" />
 
     <EditText
+        android:id="@+id/edit_text_email"
         android:layout_width="320dp"
         android:layout_height="55dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="208dp" />
 
     <TextView
+        android:id="@+id/mobile_numb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -90,12 +100,14 @@
         tools:layout_editor_absoluteY="289dp" />
 
     <EditText
+        android:id="@+id/edit_text_mobile"
         android:layout_width="320dp"
         android:layout_height="55dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="272dp" />
 
     <TextView
+        android:id="@+id/country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -104,12 +116,14 @@
         tools:layout_editor_absoluteY="357dp" />
 
     <EditText
+        android:id="@+id/edit_text_country"
         android:layout_width="320dp"
         android:layout_height="55dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="338dp" />
 
     <ImageView
+        android:id="@+id/caret_down"
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:background="@drawable/caret_down"
@@ -117,6 +131,7 @@
         tools:layout_editor_absoluteY="361dp" />
 
     <TextView
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -125,12 +140,14 @@
         tools:layout_editor_absoluteY="416dp" />
 
     <EditText
+        android:id="@+id/edit_text_password"
         android:layout_width="320dp"
         android:layout_height="55dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="399dp" />
 
     <TextView
+        android:id="@+id/confirm_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -139,12 +156,14 @@
         tools:layout_editor_absoluteY="479dp" />
 
     <EditText
+        android:id="@+id/edit_text_confirmpass"
         android:layout_width="320dp"
         android:layout_height="55dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="463dp" />
 
     <TextView
+        android:id="@+id/referal_code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_demibold"
@@ -153,6 +172,7 @@
         tools:layout_editor_absoluteY="543dp" />
 
     <EditText
+        android:id="@+id/edit_text_referal"
         android:layout_width="320dp"
         android:layout_height="55dp"
         tools:layout_editor_absoluteX="16dp"

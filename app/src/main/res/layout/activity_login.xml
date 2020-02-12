@@ -17,6 +17,7 @@
         tools:layout_editor_absoluteY="1dp">
 
         <ImageView
+            android:id="@+id/arrow_white"
             android:layout_width="28dp"
             android:layout_height="20dp"
             android:layout_marginLeft="28dp"
@@ -25,6 +26,7 @@
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/logo"
@@ -40,6 +42,7 @@
         tools:layout_editor_absoluteY="367dp">
 
         <TextView
+            android:id="@+id/continuing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
@@ -50,6 +53,7 @@
             tools:layout_editor_absoluteY="-1dp" />
 
         <TextView
+            android:id="@+id/service_provide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
@@ -96,6 +100,7 @@
             tools:layout_editor_absoluteY="175dp" />
 
         <ImageView
+            android:id="@+id/logo_google"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/google_logo"
@@ -114,6 +119,7 @@
             tools:layout_editor_absoluteY="238dp" />
 
         <ImageView
+            android:id="@+id/logo_fb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fb_logo"
@@ -121,6 +127,7 @@
             tools:layout_editor_absoluteY="248dp" />
 
         <TextView
+            android:id="@+id/enter_as_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
