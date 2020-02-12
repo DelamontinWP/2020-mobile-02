@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+        android:background="@drawable/arrow_left_black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Edit"
+        android:textSize="25dp"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Personal Info"
+        android:textColor="#000"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="99dp"
+        android:background="@drawable/profile_picture"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/edit_icon"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="About me"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="I think this is one of the most important qualities to have as a driver: Show responsibility for other traffic participants."
+        android:textColor="#000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="399dp"
+        android:fontFamily="@font/futura_pt_demibold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Jonathan Doe"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Email"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="jonathan.designer@gmail.com"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Gender"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Male"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="357dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Phone No."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="+123423423423"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="City"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Ottawa"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="Address"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:text="296 Elgin St, Ottawa, ON x 1M3,
+        Canada"
+        android:textAlignment="textEnd"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_line_full"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="714dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
