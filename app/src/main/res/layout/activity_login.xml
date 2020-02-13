@@ -11,10 +11,10 @@
         android:id="@+id/linearLayout2"
         android:layout_width="409dp"
         android:layout_height="365dp"
-        android:orientation="vertical"
         android:background="@drawable/red_rectangle"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/arrow_white"
@@ -38,30 +38,41 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
         android:layout_height="363dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="367dp">
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/continuing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Continuing as"
             android:textColor="#000000"
             android:textSize="38dp"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="-1dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/service_provide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Service Provider"
             android:textColor="#000000"
             android:textSize="38dp"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="52dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.202"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/continuing" />
 
         <Button
             android:id="@+id/button3"
@@ -72,40 +83,55 @@
             android:text="Login"
             android:textColor="#FF0000"
             android:textSize="18dp"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="113dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/service_provide"
+            app:layout_constraintVertical_bias="0.423" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
             android:background="@drawable/btn_red_medium"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Register"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="162dp"
-            tools:layout_editor_absoluteY="113dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/service_provide"
+            app:layout_constraintVertical_bias="0.428" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="319dp"
             android:layout_height="50dp"
+            android:layout_marginBottom="128dp"
             android:background="@drawable/btn_white_large"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Continue with Google"
             android:textColor="#FF0000"
             android:textSize="17dp"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="175dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.322"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/logo_google"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/google_logo"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="187dp" />
+            app:layout_constraintBottom_toBottomOf="@+id/button5"
+            app:layout_constraintEnd_toEndOf="@+id/button5"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/button5"
+            app:layout_constraintTop_toTopOf="@+id/button5"
+            app:layout_constraintVertical_bias="0.52" />
 
         <Button
             android:id="@+id/button6"
@@ -115,16 +141,24 @@
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Continue with Facebook"
             android:textSize="17dp"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="238dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5"
+            app:layout_constraintVertical_bias="0.197" />
 
         <ImageView
             android:id="@+id/logo_fb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/fb_logo"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="248dp" />
+            app:layout_constraintBottom_toBottomOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="@+id/button6"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="@+id/button6"
+            app:layout_constraintTop_toTopOf="@+id/button6"
+            app:layout_constraintVertical_bias="0.428" />
 
         <TextView
             android:id="@+id/enter_as_3"
@@ -133,8 +167,10 @@
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Enter as a guest"
             android:textSize="16dp"
-            tools:layout_editor_absoluteX="150dp"
-            tools:layout_editor_absoluteY="314dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
